@@ -62,6 +62,7 @@ Environment variables are used to configure this project.
 * `S3_SERVER_PORT` - SSL/TLS port to connect to
 * `S3_SERVER_PROTO` - Protocol to used connect to S3 server - `http` or `https` 
 * `S3_SERVER` - S3 host to connect to 
+* `S3_STYLE` - S3 style access
 
 The above environment variables can be set in a file that is passed to docker
 with the `--env-file` flag. The file would look something like 
